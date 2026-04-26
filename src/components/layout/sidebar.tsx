@@ -16,6 +16,7 @@ import {
   Eye,
   Plus,
   ChevronRight,
+  X,
 } from 'lucide-react';
 import { Logo } from '@/components/shared/logo';
 import { cn } from '@/lib/utils';
@@ -46,9 +47,10 @@ const bottomNav: NavItem[] = [
 
 interface SidebarProps {
   className?: string;
+  onClose?: () => void;
 }
 
-export function Sidebar({ className }: SidebarProps) {
+export function Sidebar({ className, onClose }: SidebarProps) {
   const t = useTranslations('nav');
   const locale = useLocale();
   const pathname = usePathname();
@@ -71,10 +73,15 @@ export function Sidebar({ className }: SidebarProps) {
       )}
     >
       {/* Logo */}
-      <div className="flex h-14 items-center px-5 border-b border-[#1E1E21]">
-        <Link href={`/${locale}/dashboard`}>
+      <div className="flex h-14 items-center px-5 border-b border-[#1E1E21] justify-between">
+        <Link href={`/${locale}/dashboard`} onClick={onClose}>
           <Logo size="sm" />
         </Link>
+        {onClose && (
+          <button onClick={onClose} className="text-[#52525B] hover:text-[#FAFAFA] transition-colors lg:hidden">
+            <X className="h-4 w-4" />
+          </button>
+        )}
       </div>
 
       {/* New Return CTA */}
@@ -103,6 +110,7 @@ export function Sidebar({ className }: SidebarProps) {
               >
                 <Link
                   href={`/${locale}${item.href}`}
+                  onClick={onClose}
                   className={cn(
                     'flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors duration-150',
                     active
@@ -136,6 +144,7 @@ export function Sidebar({ className }: SidebarProps) {
               <Link
                 key={item.key}
                 href={`/${locale}${item.href}`}
+                onClick={onClose}
                 className={cn(
                   'flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors duration-150',
                   active

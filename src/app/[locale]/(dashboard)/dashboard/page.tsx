@@ -172,7 +172,10 @@ export default function DashboardPage() {
       >
         {stats.map((stat, i) => (
           <motion.div key={stat.key} variants={staggerItem}>
-            <motion.div {...cardHover}>
+            <motion.div
+              whileHover={{ y: -3, boxShadow: '0 8px 32px rgba(0,0,0,0.5)' }}
+              transition={{ duration: 0.2 }}
+            >
               <Card className="p-5 bg-[#111113] border-[#27272A] hover:border-[#3F3F46] transition-colors cursor-default">
                 <div className="flex items-start justify-between mb-4">
                   <div className={`p-2 rounded-lg ${stat.bg}`}>

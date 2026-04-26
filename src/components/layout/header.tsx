@@ -1,6 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
-import { Search, Bell, User, ChevronDown } from 'lucide-react';
+import { Search, Bell, User, ChevronDown, Menu } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { LocaleSwitcher } from '@/components/shared/locale-switcher';
 import { Button } from '@/components/ui/button';
@@ -17,9 +17,10 @@ import { cn } from '@/lib/utils';
 interface HeaderProps {
   title?: string;
   className?: string;
+  onMenuClick?: () => void;
 }
 
-export function Header({ title, className }: HeaderProps) {
+export function Header({ title, className, onMenuClick }: HeaderProps) {
   const t = useTranslations('common');
 
   return (
@@ -28,14 +29,24 @@ export function Header({ title, className }: HeaderProps) {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
       className={cn(
-        'fixed top-0 right-0 z-30 flex h-14 items-center gap-4 border-b border-[#1E1E21]',
-        'bg-[#09090B]/80 backdrop-blur-sm px-6',
-        'left-60',
+        'fixed top-0 right-0 z-30 flex h-14 items-center gap-3 border-b border-[#1E1E21]',
+        'bg-[#09090B]/80 backdrop-blur-sm px-4 md:px-6',
+        'left-0 lg:left-60',
         className
       )}
     >
+      {/* Mobile hamburger */}
+      <Button
+        variant="ghost"
+        size="icon"
+        onClick={onMenuClick}
+        className="h-8 w-8 text-[#71717A] hover:text-[#FAFAFA] hover:bg-[#18181B] lg:hidden shrink-0"
+      >
+        <Menu className="h-4 w-4" />
+      </Button>
+
       {/* Search */}
-      <div className="relative flex-1 max-w-md">
+      <div className="relative flex-1 max-w-md hidden sm:block">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#52525B]" />
         <Input
           placeholder={t('search')}
@@ -45,7 +56,7 @@ export function Header({ title, className }: HeaderProps) {
             'focus-visible:border-[#52525B] focus-visible:ring-1 focus-visible:ring-[#52525B]/30',
           )}
         />
-        <kbd className="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] text-[#52525B] font-mono">
+        <kbd className="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] text-[#52525B] font-mono hidden md:block">
           ⌘K
         </kbd>
       </div>

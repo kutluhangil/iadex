@@ -1,45 +1,107 @@
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 9 9 11;
+    --foreground: 250 250 250;
+    --card: 17 17 19;
+    --card-foreground: 250 250 250;
+    --popover: 31 31 35;
+    --popover-foreground: 250 250 250;
+    --primary: 228 228 231;
+    --primary-foreground: 9 9 11;
+    --secondary: 24 24 27;
+    --secondary-foreground: 250 250 250;
+    --muted: 24 24 27;
+    --muted-foreground: 113 113 122;
+    --accent: 24 24 27;
+    --accent-foreground: 250 250 250;
+    --destructive: 239 68 68;
+    --destructive-foreground: 250 250 250;
+    --border: 39 39 42;
+    --input: 20 20 22;
+    --ring: 82 82 91;
+    --radius: 0.5rem;
+
+    /* Status colors */
+    --status-success: 34 197 94;
+    --status-warning: 234 179 8;
+    --status-error: 239 68 68;
+    --status-info: 59 130 246;
+
+    /* Chart */
+    --chart-1: 228 228 231;
+    --chart-2: 96 165 250;
+    --chart-3: 74 222 128;
+    --chart-4: 251 191 36;
+    --chart-5: 167 139 250;
+
+    /* Sidebar */
+    --sidebar: 13 13 15;
+    --sidebar-foreground: 250 250 250;
+    --sidebar-primary: 228 228 231;
+    --sidebar-primary-foreground: 9 9 11;
+    --sidebar-accent: 24 24 27;
+    --sidebar-accent-foreground: 250 250 250;
+    --sidebar-border: 30 30 33;
+    --sidebar-ring: 82 82 91;
+  }
+
+  * {
+    border-color: rgb(var(--border));
+  }
+
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
   .text-gradient {
     background: linear-gradient(135deg, #FAFAFA 0%, #A1A1AA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  .text-gradient-blue {
-    background: linear-gradient(135deg, #60A5FA 0%, #3B82F6 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
+
   .glass {
     background: rgba(17, 17, 19, 0.85);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid rgba(39, 39, 42, 0.7);
   }
+
   .border-glow {
     border: 1px solid transparent;
     background:
       linear-gradient(#111113, #111113) padding-box,
       linear-gradient(135deg, rgba(228,228,231,0.18), transparent 40%, rgba(228,228,231,0.06)) border-box;
   }
-  .glow-sm { box-shadow: 0 0 20px rgba(228, 228, 231, 0.05); }
-  .glow-md { box-shadow: 0 0 40px rgba(228, 228, 231, 0.08); }
+
   .gradient-mesh {
     background:
       radial-gradient(ellipse 80% 50% at 20% 40%, rgba(228, 228, 231, 0.025) 0%, transparent 50%),
       radial-gradient(ellipse 60% 80% at 80% 10%, rgba(59, 130, 246, 0.035) 0%, transparent 50%),
       radial-gradient(ellipse 100% 100% at 50% 100%, rgba(34, 197, 94, 0.015) 0%, transparent 50%);
   }
+
+  .glow-sm { box-shadow: 0 0 20px rgba(228, 228, 231, 0.05); }
+  .glow-md { box-shadow: 0 0 40px rgba(228, 228, 231, 0.08); }
+
   .shine-effect {
     position: relative;
     overflow: hidden;
@@ -53,101 +115,14 @@
   }
 }
 
-@layer base {
-  :root {
-    /* iadex — always dark. Override to dark theme defaults */
-    --background: oklch(0.09 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.12 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.14 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.92 0 0);
-    --primary-foreground: oklch(0.09 0 0);
-    --secondary: oklch(0.17 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.17 0 0);
-    --muted-foreground: oklch(0.63 0 0);
-    --accent: oklch(0.17 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.6 0.22 27);
-    --destructive-foreground: oklch(0.985 0 0);
-    --border: oklch(0.22 0 0);
-    --input: oklch(0.15 0 0);
-    --ring: oklch(0.45 0 0);
-    --radius: 0.5rem;
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #27272A; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #3F3F46; }
 
-    /* Status colors */
-    --status-success: #22C55E;
-    --status-warning: #EAB308;
-    --status-error: #EF4444;
-    --status-info: #3B82F6;
-
-    /* Chart */
-    --chart-1: oklch(0.87 0 0);
-    --chart-2: oklch(0.7 0.18 264);
-    --chart-3: oklch(0.7 0.18 142);
-    --chart-4: oklch(0.7 0.18 32);
-    --chart-5: oklch(0.7 0.18 300);
-
-    /* Sidebar */
-    --sidebar: oklch(0.11 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.985 0 0);
-    --sidebar-primary-foreground: oklch(0.09 0 0);
-    --sidebar-accent: oklch(0.16 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(0.19 0 0);
-    --sidebar-ring: oklch(0.45 0 0);
-  }
-
-  * {
-    @apply border-border outline-ring/50;
-    box-sizing: border-box;
-  }
-
-  html {
-    @apply font-sans;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    scroll-behavior: smooth;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    letter-spacing: -0.01em;
-  }
-
-  /* Scrollbar */
-  ::-webkit-scrollbar { width: 5px; height: 5px; }
-  ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: oklch(0.3 0 0); border-radius: 99px; }
-  ::-webkit-scrollbar-thumb:hover { background: oklch(0.4 0 0); }
-
-  ::selection {
-    background: rgba(228, 228, 231, 0.15);
-    color: #FAFAFA;
-  }
-}
-
-@keyframes shine {
-  from { transform: translateX(-100%) skewX(-15deg); }
-  to { transform: translateX(300%) skewX(-15deg); }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-}
-
-@keyframes pulse-glow {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 0.8; }
-}
-
-@keyframes count-up {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+/* Selection */
+::selection {
+  background: rgba(228, 228, 231, 0.15);
+  color: #FAFAFA;
 }
