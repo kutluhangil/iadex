@@ -1,0 +1,463 @@
+{
+  "common": {
+    "appName": "iadex",
+    "tagline": "Shopify mağazanız için akıllı iade yönetimi",
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "create": "Oluştur",
+    "search": "Ara...",
+    "filter": "Filtrele",
+    "export": "Dışa Aktar",
+    "back": "Geri",
+    "next": "İleri",
+    "submit": "Gönder",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "yes": "Evet",
+    "no": "Hayır",
+    "or": "veya",
+    "and": "ve",
+    "all": "Tümü",
+    "none": "Yok",
+    "other": "Diğer",
+    "actions": "İşlemler",
+    "status": "Durum",
+    "date": "Tarih",
+    "amount": "Tutar",
+    "total": "Toplam",
+    "name": "Ad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "note": "Not",
+    "details": "Detaylar",
+    "required": "Zorunlu",
+    "optional": "İsteğe Bağlı",
+    "new": "Yeni",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "settings": "Ayarlar",
+    "help": "Yardım",
+    "logout": "Çıkış Yap",
+    "dashboard": "Panel"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "returns": "İadeler",
+    "orders": "Siparişler",
+    "customers": "Müşteriler",
+    "labels": "Etiketler",
+    "automations": "Otomasyonlar",
+    "analytics": "Analitik",
+    "settings": "Ayarlar",
+    "billing": "Fatura",
+    "portalPreview": "Portal Önizleme",
+    "newReturn": "Yeni İade"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Shopify ile Entegre",
+      "title": "İadeleri Yönetmek\nHiç Bu Kadar\nKolay Olmamıştı",
+      "subtitle": "Müşteri iade taleplerini otomatikleştirin, kargo etiketlerini anında oluşturun ve tüm süreci tek yerden yönetin.",
+      "cta": "Ücretsiz Deneyin",
+      "ctaSecondary": "Demo İzle",
+      "trustedBy": "Türkiye'nin önde gelen Shopify mağazaları tarafından kullanılıyor"
+    },
+    "problems": {
+      "title": "İade yönetimi bir kabus olmamalı",
+      "subtitle": "Her gün saatlerinizi manuel iade işlemleriyle harcıyorsunuz. iadex bunu değiştirir.",
+      "items": [
+        {
+          "icon": "⏰",
+          "title": "Zaman Kaybı",
+          "description": "Her iade için e-postalar, telefon görüşmeleri ve manuel kargo düzenlemeleri. Saatleriniz gidiyor."
+        },
+        {
+          "icon": "😤",
+          "title": "Müşteri Memnuniyetsizliği",
+          "description": "Yavaş yanıtlar ve belirsiz süreçler müşterileri kaybettirir. İlk izlenim önemlidir."
+        },
+        {
+          "icon": "📊",
+          "title": "Görünmez Veriler",
+          "description": "Hangi ürünler neden iade ediliyor? Bilmeden düzeltemezsiniz."
+        }
+      ]
+    },
+    "features": {
+      "title": "Güçlü özellikler,\nsade arayüz",
+      "subtitle": "Shopify mağazanızı iadex ile bağlayın ve tüm iade sürecinizi dakikalar içinde otomatikleştirin.",
+      "items": [
+        {
+          "icon": "⚡",
+          "title": "Akıllı Otomasyon",
+          "description": "Kural tabanlı otomasyon motoru ile tekrar eden işlemleri sıfıra indirin. Otomatik onay, etiket oluşturma ve bildirimler."
+        },
+        {
+          "icon": "🎯",
+          "title": "Self-Servis Portal",
+          "description": "Müşterileriniz iade taleplerini markalı portal üzerinden kendileri başlatır. 7/24 erişim, sıfır yük."
+        },
+        {
+          "icon": "🚚",
+          "title": "Anında Kargo Etiketi",
+          "description": "Yurtiçi, Aras, MNG ile tek tıkla kargo etiketi. PDF indir, müşteriye otomatik gönder."
+        },
+        {
+          "icon": "📈",
+          "title": "Derin Analitik",
+          "description": "Hangi ürünler neden iade ediliyor? İade oranları, çözüm süreleri ve gelir etkisini anlık görün."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "3 adımda hazır",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Shopify'ı Bağla",
+          "description": "OAuth ile güvenli bağlantı. Siparişleriniz otomatik sync olur."
+        },
+        {
+          "number": "02",
+          "title": "Kurallarını Belirle",
+          "description": "Hangi iadelerin otomatik onaylanacağını, hangi kargoların kullanılacağını ayarla."
+        },
+        {
+          "number": "03",
+          "title": "Sistemi Çalıştır",
+          "description": "iadex işleri halleder. Sen sadece raporları izle ve büyümeye odaklan."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Şeffaf fiyatlandırma",
+      "subtitle": "Gizli ücret yok. İstediğin zaman iptal.",
+      "toggle": {
+        "monthly": "Aylık",
+        "yearly": "Yıllık",
+        "discount": "%20 İndirim"
+      },
+      "currency": {
+        "try": "₺ TRY",
+        "usd": "$ USD"
+      },
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "description": "Küçük mağazalar için ideal başlangıç",
+          "price_try_monthly": 1499,
+          "price_try_yearly": 1199,
+          "price_usd_monthly": 49,
+          "price_usd_yearly": 39,
+          "features": [
+            "Aylık 100 iade",
+            "1 mağaza",
+            "3 otomasyon kuralı",
+            "Yurtiçi Kargo",
+            "3 e-posta şablonu",
+            "Temel analitik",
+            "Email desteği"
+          ],
+          "overage_try": 15,
+          "overage_usd": 0.50
+        },
+        "growth": {
+          "name": "Growth",
+          "description": "Büyüyen mağazalar için tam paket",
+          "price_try_monthly": 4499,
+          "price_try_yearly": 3599,
+          "price_usd_monthly": 149,
+          "price_usd_yearly": 119,
+          "features": [
+            "Aylık 500 iade",
+            "3 mağaza",
+            "Sınırsız otomasyon",
+            "Yurtiçi + Aras + MNG",
+            "EasyPost (UPS, FedEx)",
+            "Özelleştirilebilir e-posta",
+            "Gelişmiş analitik + Export",
+            "Full portal markalaşma",
+            "Öncelikli email desteği",
+            "5 ekip üyesi"
+          ],
+          "overage_try": 12,
+          "overage_usd": 0.40,
+          "highlighted": true
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "description": "Büyük operasyonlar için sınırsız güç",
+          "price_try_monthly": 11999,
+          "price_try_yearly": 9599,
+          "price_usd_monthly": 399,
+          "price_usd_yearly": 319,
+          "features": [
+            "Sınırsız iade",
+            "10 mağaza",
+            "Sınırsız her şey",
+            "Tüm kargo entegrasyonları",
+            "Full custom HTML e-posta",
+            "Gelişmiş analitik",
+            "Custom domain portal",
+            "Full CRUD API erişimi",
+            "Sınırsız webhook",
+            "Sınırsız ekip üyesi",
+            "Dedicated + Slack desteği"
+          ],
+          "overage_try": 7.50,
+          "overage_usd": 0.25
+        }
+      },
+      "trial": "14 gün ücretsiz deneyin",
+      "noCard": "Kredi kartı gerekmez"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "items": [
+        {
+          "question": "Shopify entegrasyonu nasıl çalışır?",
+          "answer": "OAuth ile güvenli bağlantı kurarsınız. Mağazanızın verilerine erişim için izin verirsiniz, biz de siparişlerinizi otomatik olarak senkronize ederiz. Kurulum 2 dakika sürer."
+        },
+        {
+          "question": "Verilerim güvende mi?",
+          "answer": "Evet. Shopify access token'larınız AES-256 ile şifrelenir. Supabase Row Level Security ile her mağaza yalnızca kendi verilerine erişir."
+        },
+        {
+          "question": "Hangi kargo şirketleri destekleniyor?",
+          "answer": "Türkiye'de Yurtiçi Kargo, Aras Kargo ve MNG Kargo. Global olarak EasyPost üzerinden UPS, FedEx ve DHL desteklenmektedir."
+        },
+        {
+          "question": "Ücretsiz deneme neler içeriyor?",
+          "answer": "14 gün boyunca Growth planının tüm özelliklerini kullanırsınız. 20 iade ile sınırlıdır. Kredi kartı gerekmez, dilediğinizde iptal edebilirsiniz."
+        },
+        {
+          "question": "Müşteri portalını özelleştirebilir miyim?",
+          "answer": "Evet. Logo, renkler, karşılama mesajı ve iade sebepleri tam olarak özelleştirilebilir. Enterprise planında custom domain desteği de mevcuttur."
+        },
+        {
+          "question": "Ekibimle birlikte kullanabilir miyim?",
+          "answer": "Evet. Starter'da 1, Growth'ta 5, Enterprise'da sınırsız ekip üyesi ekleyebilirsiniz."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bugün başlayın",
+      "subtitle": "14 gün ücretsiz, kredi kartı gerekmez.",
+      "button": "Ücretsiz Deneyin →",
+      "subtext": "Kurulum 2 dakika • İstediğin zaman iptal"
+    },
+    "footer": {
+      "product": "Ürün",
+      "company": "Şirket",
+      "legal": "Yasal",
+      "links": {
+        "features": "Özellikler",
+        "pricing": "Fiyatlandırma",
+        "changelog": "Değişiklikler",
+        "about": "Hakkımızda",
+        "blog": "Blog",
+        "contact": "İletişim",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Kullanım Koşulları"
+      },
+      "copyright": "© 2026 iadex. Tüm hakları saklıdır."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Hoş geldiniz",
+      "subtitle": "Hesabınıza giriş yapın",
+      "email": "E-posta",
+      "password": "Şifre",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "submit": "Giriş Yap",
+      "noAccount": "Hesabınız yok mu?",
+      "register": "Kayıt Olun",
+      "orContinue": "veya şununla devam edin"
+    },
+    "register": {
+      "title": "Hesap oluşturun",
+      "subtitle": "14 gün ücretsiz başlayın",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "password": "Şifre",
+      "passwordConfirm": "Şifre Tekrar",
+      "terms": "Kullanım koşullarını kabul ediyorum",
+      "submit": "Hesap Oluştur",
+      "hasAccount": "Zaten hesabınız var mı?",
+      "login": "Giriş Yapın"
+    }
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Merhaba",
+    "stats": {
+      "totalReturns": "Toplam İade",
+      "returnRate": "İade Oranı",
+      "avgResolution": "Ort. Çözüm",
+      "totalRefunds": "Toplam Geri Ödeme",
+      "vsLastMonth": "geçen aya göre",
+      "days": "gün"
+    },
+    "recentReturns": "Son İadeler",
+    "viewAll": "Tümünü Görüntüle",
+    "quickActions": "Hızlı İşlemler",
+    "createReturn": "İade Oluştur",
+    "syncOrders": "Siparişleri Sync Et"
+  },
+  "returns": {
+    "title": "İadeler",
+    "subtitle": "Tüm iade taleplerini yönetin",
+    "new": "Yeni İade",
+    "table": {
+      "returnNumber": "İade No",
+      "customer": "Müşteri",
+      "order": "Sipariş",
+      "reason": "Sebep",
+      "status": "Durum",
+      "amount": "Tutar",
+      "date": "Tarih",
+      "actions": "İşlemler"
+    },
+    "status": {
+      "pending": "Beklemede",
+      "approved": "Onaylandı",
+      "label_created": "Etiket Oluşturuldu",
+      "shipped": "Kargoya Verildi",
+      "received": "Alındı",
+      "inspected": "İncelendi",
+      "refunded": "Geri Ödendi",
+      "rejected": "Reddedildi"
+    },
+    "reasons": {
+      "defective": "Hatalı Ürün",
+      "wrong_item": "Yanlış Ürün",
+      "not_as_described": "Tarife Uymuyor",
+      "changed_mind": "Fikir Değişikliği",
+      "too_large": "Büyük Geldi",
+      "too_small": "Küçük Geldi",
+      "damaged": "Hasarlı",
+      "other": "Diğer"
+    },
+    "resolution": {
+      "refund": "Geri Ödeme",
+      "exchange": "Değişim",
+      "store_credit": "Mağaza Kredisi"
+    },
+    "actions": {
+      "approve": "Onayla",
+      "reject": "Reddet",
+      "createLabel": "Etiket Oluştur",
+      "markReceived": "Alındı Olarak İşaretle",
+      "processRefund": "Geri Ödemeyi İşle",
+      "viewDetails": "Detayları Görüntüle"
+    },
+    "empty": {
+      "title": "İade bulunamadı",
+      "subtitle": "Henüz iade talebi yok veya filtrelerinizi değiştirin."
+    }
+  },
+  "orders": {
+    "title": "Siparişler",
+    "subtitle": "Shopify siparişlerinizi yönetin",
+    "sync": "Sync Et",
+    "lastSync": "Son sync",
+    "table": {
+      "orderNumber": "Sipariş No",
+      "customer": "Müşteri",
+      "items": "Ürünler",
+      "total": "Toplam",
+      "status": "Durum",
+      "date": "Tarih"
+    },
+    "status": {
+      "paid": "Ödendi",
+      "refunded": "İade Edildi",
+      "partially_refunded": "Kısmi İade"
+    }
+  },
+  "analytics": {
+    "title": "Analitik",
+    "subtitle": "İade verilerinizi derinlemesine analiz edin",
+    "dateRange": "Tarih Aralığı",
+    "charts": {
+      "returnTrend": "İade Trendi",
+      "reasonBreakdown": "Sebep Dağılımı",
+      "topProducts": "En Çok İade Edilen Ürünler",
+      "resolutionTypes": "Çözüm Türleri",
+      "avgResolutionTime": "Ortalama Çözüm Süresi"
+    }
+  },
+  "automations": {
+    "title": "Otomasyonlar",
+    "subtitle": "Tekrar eden işlemleri otomatikleştirin",
+    "new": "Yeni Kural",
+    "templates": "Hazır Şablonlar",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "triggers": {
+      "return_created": "İade Oluşturulduğunda",
+      "return_status_changed": "Durum Değiştiğinde",
+      "return_deadline_approaching": "SLA Yaklaşırken",
+      "return_received": "Ürün Alındığında",
+      "order_fulfilled": "Sipariş Kargolandığında"
+    },
+    "actions": {
+      "auto_approve": "Otomatik Onayla",
+      "auto_reject": "Otomatik Reddet",
+      "send_email": "E-posta Gönder",
+      "create_label": "Etiket Oluştur",
+      "assign_to": "Kişiye Ata",
+      "add_tag": "Etiket Ekle",
+      "add_note": "Not Ekle",
+      "notify_slack": "Slack Bildirimi",
+      "change_status": "Durum Değiştir",
+      "delay": "Bekle"
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "sections": {
+      "general": "Genel",
+      "store": "Mağaza",
+      "billing": "Fatura",
+      "team": "Ekip",
+      "notifications": "Bildirimler",
+      "integrations": "Entegrasyonlar"
+    }
+  },
+  "portal": {
+    "step1": {
+      "title": "İade Başlatın",
+      "subtitle": "Sipariş numaranızı ve e-posta adresinizi girin",
+      "orderNumber": "Sipariş Numarası",
+      "orderNumberPlaceholder": "#1001",
+      "email": "E-posta Adresi",
+      "submit": "Siparişi Bul"
+    },
+    "step2": {
+      "title": "Ürün Seçin",
+      "subtitle": "İade etmek istediğiniz ürünleri seçin",
+      "selectReason": "İade Sebebi",
+      "addDescription": "Açıklama ekleyin (isteğe bağlı)",
+      "addPhotos": "Fotoğraf ekleyin"
+    },
+    "step3": {
+      "title": "Çözüm Tercihi",
+      "subtitle": "Nasıl çözüm almak istersiniz?"
+    },
+    "step4": {
+      "title": "Özet",
+      "submit": "İade Talebimi Gönder"
+    },
+    "tracking": {
+      "title": "İade Takibi",
+      "downloadLabel": "Etiket İndir",
+      "trackShipment": "Kargo Takip"
+    }
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "common": {
+    "appName": "iadex",
+    "tagline": "Smart return management for your Shopify store",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search...",
+    "filter": "Filter",
+    "export": "Export",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "all": "All",
+    "none": "None",
+    "other": "Other",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "total": "Total",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "note": "Note",
+    "details": "Details",
+    "required": "Required",
+    "optional": "Optional",
+    "new": "New",
+    "active": "Active",
+    "inactive": "Inactive",
+    "settings": "Settings",
+    "help": "Help",
+    "logout": "Log Out",
+    "dashboard": "Dashboard"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "returns": "Returns",
+    "orders": "Orders",
+    "customers": "Customers",
+    "labels": "Labels",
+    "automations": "Automations",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "billing": "Billing",
+    "portalPreview": "Portal Preview",
+    "newReturn": "New Return"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Integrated with Shopify",
+      "title": "Return Management\nHas Never Been\nThis Simple",
+      "subtitle": "Automate customer return requests, instantly generate shipping labels, and manage the entire process from one place.",
+      "cta": "Start Free Trial",
+      "ctaSecondary": "Watch Demo",
+      "trustedBy": "Trusted by leading Shopify stores in Turkey"
+    },
+    "problems": {
+      "title": "Return management shouldn't be a nightmare",
+      "subtitle": "You spend hours every day on manual return processes. iadex changes that.",
+      "items": [
+        {
+          "icon": "⏰",
+          "title": "Time Waste",
+          "description": "Emails, phone calls, and manual shipping arrangements for every return. Hours wasted."
+        },
+        {
+          "icon": "😤",
+          "title": "Customer Dissatisfaction",
+          "description": "Slow responses and unclear processes lose customers. First impressions matter."
+        },
+        {
+          "icon": "📊",
+          "title": "Invisible Data",
+          "description": "Which products are being returned and why? You can't fix what you can't see."
+        }
+      ]
+    },
+    "features": {
+      "title": "Powerful features,\nclean interface",
+      "subtitle": "Connect your Shopify store with iadex and automate your entire return process in minutes.",
+      "items": [
+        {
+          "icon": "⚡",
+          "title": "Smart Automation",
+          "description": "Rule-based automation engine to eliminate repetitive tasks. Auto-approve, label creation, and notifications."
+        },
+        {
+          "icon": "🎯",
+          "title": "Self-Service Portal",
+          "description": "Customers initiate returns through your branded portal themselves. 24/7 access, zero burden."
+        },
+        {
+          "icon": "🚚",
+          "title": "Instant Shipping Labels",
+          "description": "One-click shipping labels with major carriers. Download PDF, auto-send to customer."
+        },
+        {
+          "icon": "📈",
+          "title": "Deep Analytics",
+          "description": "Which products are returned and why? View return rates, resolution times, and revenue impact in real-time."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Ready in 3 steps",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Connect Shopify",
+          "description": "Secure connection via OAuth. Your orders sync automatically."
+        },
+        {
+          "number": "02",
+          "title": "Set Your Rules",
+          "description": "Decide which returns get auto-approved and which carriers to use."
+        },
+        {
+          "number": "03",
+          "title": "Run on Autopilot",
+          "description": "iadex handles the work. You just watch the reports and focus on growth."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Transparent pricing",
+      "subtitle": "No hidden fees. Cancel anytime.",
+      "toggle": {
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "discount": "20% Off"
+      },
+      "currency": {
+        "try": "₺ TRY",
+        "usd": "$ USD"
+      },
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "description": "Perfect for small stores getting started",
+          "price_try_monthly": 1499,
+          "price_try_yearly": 1199,
+          "price_usd_monthly": 49,
+          "price_usd_yearly": 39,
+          "features": [
+            "100 returns/month",
+            "1 store",
+            "3 automation rules",
+            "Yurtiçi Shipping",
+            "3 email templates",
+            "Basic analytics",
+            "Email support"
+          ],
+          "overage_try": 15,
+          "overage_usd": 0.50
+        },
+        "growth": {
+          "name": "Growth",
+          "description": "Full package for growing stores",
+          "price_try_monthly": 4499,
+          "price_try_yearly": 3599,
+          "price_usd_monthly": 149,
+          "price_usd_yearly": 119,
+          "features": [
+            "500 returns/month",
+            "3 stores",
+            "Unlimited automations",
+            "Yurtiçi + Aras + MNG",
+            "EasyPost (UPS, FedEx)",
+            "Customizable email",
+            "Advanced analytics + Export",
+            "Full portal branding",
+            "Priority email support",
+            "5 team members"
+          ],
+          "overage_try": 12,
+          "overage_usd": 0.40,
+          "highlighted": true
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "description": "Unlimited power for large operations",
+          "price_try_monthly": 11999,
+          "price_try_yearly": 9599,
+          "price_usd_monthly": 399,
+          "price_usd_yearly": 319,
+          "features": [
+            "Unlimited returns",
+            "10 stores",
+            "Everything unlimited",
+            "All carrier integrations",
+            "Full custom HTML email",
+            "Advanced analytics",
+            "Custom domain portal",
+            "Full CRUD API access",
+            "Unlimited webhooks",
+            "Unlimited team members",
+            "Dedicated + Slack support"
+          ],
+          "overage_try": 7.50,
+          "overage_usd": 0.25
+        }
+      },
+      "trial": "14-day free trial",
+      "noCard": "No credit card required"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How does the Shopify integration work?",
+          "answer": "You establish a secure connection via OAuth. You grant access to your store's data, and we automatically sync your orders. Setup takes 2 minutes."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes. Your Shopify access tokens are encrypted with AES-256. Supabase Row Level Security ensures each store only accesses its own data."
+        },
+        {
+          "question": "Which shipping companies are supported?",
+          "answer": "In Turkey: Yurtiçi Kargo, Aras Kargo, and MNG Kargo. Globally, via EasyPost: UPS, FedEx, and DHL."
+        },
+        {
+          "question": "What does the free trial include?",
+          "answer": "You get all Growth plan features for 14 days. Limited to 20 returns. No credit card required, cancel anytime."
+        },
+        {
+          "question": "Can I customize the customer portal?",
+          "answer": "Yes. Logo, colors, welcome message, and return reasons are fully customizable. Enterprise plan includes custom domain support."
+        },
+        {
+          "question": "Can I use it with my team?",
+          "answer": "Yes. Starter includes 1, Growth includes 5, and Enterprise includes unlimited team members."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start today",
+      "subtitle": "14 days free, no credit card required.",
+      "button": "Start Free Trial →",
+      "subtext": "2-minute setup • Cancel anytime"
+    },
+    "footer": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "links": {
+        "features": "Features",
+        "pricing": "Pricing",
+        "changelog": "Changelog",
+        "about": "About",
+        "blog": "Blog",
+        "contact": "Contact",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      },
+      "copyright": "© 2026 iadex. All rights reserved."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot your password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "register": "Sign Up",
+      "orContinue": "or continue with"
+    },
+    "register": {
+      "title": "Create an account",
+      "subtitle": "Start your 14-day free trial",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "passwordConfirm": "Confirm Password",
+      "terms": "I agree to the terms of service",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign In"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Hello",
+    "stats": {
+      "totalReturns": "Total Returns",
+      "returnRate": "Return Rate",
+      "avgResolution": "Avg. Resolution",
+      "totalRefunds": "Total Refunds",
+      "vsLastMonth": "vs last month",
+      "days": "days"
+    },
+    "recentReturns": "Recent Returns",
+    "viewAll": "View All",
+    "quickActions": "Quick Actions",
+    "createReturn": "Create Return",
+    "syncOrders": "Sync Orders"
+  },
+  "returns": {
+    "title": "Returns",
+    "subtitle": "Manage all return requests",
+    "new": "New Return",
+    "table": {
+      "returnNumber": "Return #",
+      "customer": "Customer",
+      "order": "Order",
+      "reason": "Reason",
+      "status": "Status",
+      "amount": "Amount",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "label_created": "Label Created",
+      "shipped": "Shipped",
+      "received": "Received",
+      "inspected": "Inspected",
+      "refunded": "Refunded",
+      "rejected": "Rejected"
+    },
+    "reasons": {
+      "defective": "Defective Product",
+      "wrong_item": "Wrong Item",
+      "not_as_described": "Not as Described",
+      "changed_mind": "Changed Mind",
+      "too_large": "Too Large",
+      "too_small": "Too Small",
+      "damaged": "Damaged",
+      "other": "Other"
+    },
+    "resolution": {
+      "refund": "Refund",
+      "exchange": "Exchange",
+      "store_credit": "Store Credit"
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "createLabel": "Create Label",
+      "markReceived": "Mark as Received",
+      "processRefund": "Process Refund",
+      "viewDetails": "View Details"
+    },
+    "empty": {
+      "title": "No returns found",
+      "subtitle": "No return requests yet or try changing your filters."
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "subtitle": "Manage your Shopify orders",
+    "sync": "Sync",
+    "lastSync": "Last sync",
+    "table": {
+      "orderNumber": "Order #",
+      "customer": "Customer",
+      "items": "Items",
+      "total": "Total",
+      "status": "Status",
+      "date": "Date"
+    },
+    "status": {
+      "paid": "Paid",
+      "refunded": "Refunded",
+      "partially_refunded": "Partially Refunded"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Deep dive into your return data",
+    "dateRange": "Date Range",
+    "charts": {
+      "returnTrend": "Return Trend",
+      "reasonBreakdown": "Reason Breakdown",
+      "topProducts": "Top Returned Products",
+      "resolutionTypes": "Resolution Types",
+      "avgResolutionTime": "Avg. Resolution Time"
+    }
+  },
+  "automations": {
+    "title": "Automations",
+    "subtitle": "Automate repetitive tasks",
+    "new": "New Rule",
+    "templates": "Templates",
+    "active": "Active",
+    "inactive": "Inactive",
+    "triggers": {
+      "return_created": "When Return is Created",
+      "return_status_changed": "When Status Changes",
+      "return_deadline_approaching": "When SLA Approaches",
+      "return_received": "When Item is Received",
+      "order_fulfilled": "When Order is Shipped"
+    },
+    "actions": {
+      "auto_approve": "Auto Approve",
+      "auto_reject": "Auto Reject",
+      "send_email": "Send Email",
+      "create_label": "Create Label",
+      "assign_to": "Assign To",
+      "add_tag": "Add Tag",
+      "add_note": "Add Note",
+      "notify_slack": "Slack Notification",
+      "change_status": "Change Status",
+      "delay": "Wait"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "sections": {
+      "general": "General",
+      "store": "Store",
+      "billing": "Billing",
+      "team": "Team",
+      "notifications": "Notifications",
+      "integrations": "Integrations"
+    }
+  },
+  "portal": {
+    "step1": {
+      "title": "Start a Return",
+      "subtitle": "Enter your order number and email address",
+      "orderNumber": "Order Number",
+      "orderNumberPlaceholder": "#1001",
+      "email": "Email Address",
+      "submit": "Find Order"
+    },
+    "step2": {
+      "title": "Select Items",
+      "subtitle": "Select the items you'd like to return",
+      "selectReason": "Return Reason",
+      "addDescription": "Add description (optional)",
+      "addPhotos": "Add photos"
+    },
+    "step3": {
+      "title": "Resolution Preference",
+      "subtitle": "How would you like this resolved?"
+    },
+    "step4": {
+      "title": "Summary",
+      "submit": "Submit Return Request"
+    },
+    "tracking": {
+      "title": "Return Tracking",
+      "downloadLabel": "Download Label",
+      "trackShipment": "Track Shipment"
+    }
+  }
+}
